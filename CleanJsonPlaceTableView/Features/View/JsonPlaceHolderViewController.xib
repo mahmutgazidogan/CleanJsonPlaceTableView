@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JsonPlaceHolderViewController" customModule="CleanJsonPlaceTableView" customModuleProvider="target">
+            <connections>
+                <outlet property="tableViewJsonPlaceHolder" destination="UyP-fb-MM1" id="Lcu-gq-jvk"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Json Place Holder View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="8uY-we-wiJ">
+                    <rect key="frame" x="16" y="79" width="357" height="41"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="UyP-fb-MM1">
+                    <rect key="frame" x="16" y="140" width="357" height="678"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="8uY-we-wiJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="DQh-gs-ulp"/>
+                <constraint firstItem="8uY-we-wiJ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="Dws-v8-LcO"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8uY-we-wiJ" secondAttribute="trailing" constant="20" id="NP4-9U-YCJ"/>
+                <constraint firstItem="UyP-fb-MM1" firstAttribute="top" secondItem="8uY-we-wiJ" secondAttribute="bottom" constant="20" id="NkF-zf-4iX"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="UyP-fb-MM1" secondAttribute="bottom" id="PSi-dn-FA1"/>
+                <constraint firstItem="UyP-fb-MM1" firstAttribute="trailing" secondItem="8uY-we-wiJ" secondAttribute="trailing" id="VzI-rY-Yd0"/>
+                <constraint firstItem="UyP-fb-MM1" firstAttribute="leading" secondItem="8uY-we-wiJ" secondAttribute="leading" id="hWg-aG-lod"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
